@@ -1,6 +1,6 @@
 # Sparse-view image reconstruction from Radon projections
 
-Course project, *Scientific Computing Applications and Practice* (Southwest Petroleum University, 2023).
+Course project, *Scientific Computing Applications and Practice* (Southwest Petroleum University, June–July 2024).
 The parallel-beam projection matrix of a 100 × 100 image is assembled explicitly for 5 to 180 angles, so that its rank, null space and singular values can be computed exactly. Filtered back-projection (FBP), LSQR, Tikhonov regularisation and total-variation (TV) regularisation (Chambolle–Pock) are compared on data simulated on a four-times finer grid, with oracle parameters and with the discrepancy principle, for two phantoms, three noise levels and three noise realisations.
 
 **Report:** [report/main.pdf](report/main.pdf)

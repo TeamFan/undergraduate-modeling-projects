@@ -9,7 +9,7 @@ The bachelor thesis has its own repository: [thyroid-cancer-recurrence](https://
 | [medical-warehouse-location](medical-warehouse-location/) | SWPU modelling contest 2023, Problem A (team, third prize) | Spherical Weber problem, genetic algorithm, capacitated range-constrained VRP (MILP), ε-constraint distance–loss trade-off | [PDF](medical-warehouse-location/report/main.pdf) |
 | [supplier-selection-planning](supplier-selection-planning/) | CUMCM 2021 Problem C (training exercise, 2023) | Chance-constrained supplier selection (SAA), LP with uncertainty-dependent safety stock, carrier assignment MILP, out-of-sample simulation | [PDF](supplier-selection-planning/report/main.pdf) |
 | [mpi-black-scholes](mpi-black-scholes/) | Course project, Large-Scale Scientific Computing (2024) | MPI-parallel Monte Carlo, antithetic and control variates, Asian options, Crank–Nicolson, strong/weak scaling | [PDF](mpi-black-scholes/report/main.pdf) |
-| [radon-reconstruction](radon-reconstruction/) | Course project, Scientific Computing Applications (2023) | Over/underdetermined systems, SVD, FBP, LSQR, Tikhonov, TV (Chambolle–Pock) | [PDF](radon-reconstruction/report/main.pdf) |
+| [radon-reconstruction](radon-reconstruction/) | Course project, Scientific Computing Applications (2024) | Over/underdetermined systems, SVD, FBP, LSQR, Tikhonov, TV (Chambolle–Pock) | [PDF](radon-reconstruction/report/main.pdf) |
 | [ancient-glass-composition](ancient-glass-composition/) | CUMCM 2022 Problem C (training exercise, 2023) | Compositional (log-ratio) data analysis, exact tests, logistic classification, Ward clustering with stability analysis | [PDF](ancient-glass-composition/report/main.pdf) |
 
 ## Requirements
