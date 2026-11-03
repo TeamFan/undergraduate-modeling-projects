@@ -54,8 +54,8 @@ The 50 highest-ranked suppliers hold 98.8\% of the total sustained capacity.
 An independent entropy-weight TOPSIS evaluation on five indicators selects 42 of the same 50, and the ranking changes by at most two suppliers when the capacity definition or the reliability measure is changed (Kendall's $\tau$ 0.62--0.99).
 
 For Problem 2 we formulate the selection of the fewest suppliers as a chance-constrained 0--1 programme and solve its sample average approximation exactly.
-Eighteen suppliers keep the two-week stock in every week with an out-of-sample probability of 96.7\% when they are ordered at capacity, whereas the fifteen suppliers suggested by expected values achieve only 40\%; repeated approximations with 100 to 400 scenarios return 17 or 18 suppliers with at least 15 in common with our choice.
-A linear programme whose safety stock grows with the accumulated delivery uncertainty yields the cheapest order plan, at the historical cost per unit of product and with 91.6\% compliance, and a carrier-assignment programme lowers the expected transport loss to 0.58\%, against 1.38\% for random feasible assignments.
+When every selected supplier is ordered at its estimated capacity, eighteen suppliers keep the two-week stock in all 24 weeks in 96.7\% of 5{,}000 new simulated scenarios, whereas the fifteen suppliers suggested by expected values do so in only 40.1\%; repeated approximations with 100 to 400 scenarios return 17 or 18 suppliers with at least 15 in common with our choice.
+A linear programme whose safety stock grows with the accumulated delivery uncertainty yields the cheapest order plan for these suppliers, at the historical cost per unit of product and with a lower compliance of 91.6\%, and a carrier-assignment programme lowers the expected transport loss to 0.58\%, compared with 1.38\% for random feasible carrier assignments.
 
 For Problem 3 we show that per unit of product A, B and C cost almost the same, so that preferring A and avoiding C is equivalent to minimising raw volume.
 The volume-minimal plan buys all available A, cuts the volume of C by 61\% and the total volume by 4.0\%, and costs only 0.2\% more.
@@ -243,6 +243,8 @@ I_t = I_{t-1} + \sum_i \frac{\rho_{it}x_{it}}{\alpha_i} - D,\qquad t=1,\dots,24,
 \end{equation}
 so that $I_t\ge 2D$ holds exactly when the cumulative supply keeps pace with the cumulative demand, $\sum_{\tau\le t}\sum_i\rho_{i\tau}x_{i\tau}/\alpha_i\ge tD$.
 We call a plan \emph{compliant} in a scenario if this holds in all 24 weeks, and we denote by $\pi$ the probability of compliance, which we target at 95\%.
+We estimate $\pi$ as the share of compliant scenarios among new scenarios simulated from the fitted supply model, that is, delivery ratios resampled from each supplier's history with a random seed different from that of the scenarios used to build the plan.
+Throughout the paper, out-of-sample compliance refers to this estimate; it tests a plan against fresh realisations of the model, not against held-out historical weeks, so it is only as good as the supply model itself, which is why \cref{sec:sensitivity} also tests the model's assumptions.
 Requiring compliance in every week of the horizon is deliberately strict: a plan with $\pi=0.95$ keeps the full two-week buffer throughout the half year in 19 of 20 cases, and it almost never runs out of stock altogether.
 
 Under assumption A2 the supply of a given plan has mean and variance
@@ -436,7 +438,7 @@ The comparison also explains why the expected value is a poor guide in this prob
 
 \begin{table}[ht]
 \centering
-\caption{Chance-constrained selections for different allowed failure probabilities. Compliance means that the two-week stock is kept in all 24 weeks when every selected supplier is ordered at capacity; out-of-sample values use 5{,}000 independent scenarios.}\label{tab:sel}
+\caption{Chance-constrained selections for different allowed failure probabilities. Compliance means that the two-week stock is kept in all 24 weeks when every selected supplier is ordered at capacity; out-of-sample values use 5{,}000 new simulated scenarios.}\label{tab:sel}
 \small
 \begin{tabular}{lrrrr}
 \toprule
@@ -765,7 +767,8 @@ A cardinality constraint in Problems 3 and 4 would show how much of the volume s
 %% ================================================================== 11
 \section{Conclusions}
 Ranked by the product they can reliably supply, the 50 most important suppliers hold 98.8\% of the sustained capacity, and this ranking is robust both to the capacity definition and to the evaluation method.
-Production can be sustained with as few as 18 suppliers at 96.7\% compliance, three more than an analysis of expected values suggests; for them the cheapest order plan reaches 91.6\% compliance at the historical cost per unit of product, and the optimised transport plan loses 0.58\% of the material, less than half of a random assignment.
+Production can be sustained with as few as 18 suppliers, three more than an analysis of expected values suggests: ordered at their estimated capacities, they keep the two-week stock in 96.7\% of the simulated scenarios.
+For the same suppliers the cheapest order plan reaches a lower compliance of 91.6\% at the historical cost per unit of product, and the optimised transport plan has an expected loss of 0.58\% of the material, less than half of the 1.38\% of random feasible carrier assignments.
 Because the three materials cost almost the same per unit of product, a preference for A is a preference for low volume, and the volume-minimal plan cuts C by 61\% and the total volume by 4.0\% for a 0.2\% higher purchase cost.
 With the existing suppliers and carriers, weekly production can rise to about 37{,}700\,m$^3$ (+34\%) under the base capacity definition, limited by the suppliers rather than by the carriers, although this estimate ranges from $-11\%$ to $+101\%$ across capacity definitions.
 The common lesson of the four problems is that the variability of the deliveries, rather than their mean, determines how many suppliers are needed and how much can be produced, and that it should be measured on scenarios independent of the plan.
