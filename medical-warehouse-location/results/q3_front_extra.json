@@ -1,0 +1,251 @@
+[
+  {
+    "eps": 0.15,
+    "distance_km": 2915.6271051498334,
+    "loss_kg": 101.7511887189354,
+    "helicopters": 3,
+    "status": 1,
+    "mip_gap": 0.8571664989346707,
+    "max_arrival_min": 248.0031115723623,
+    "routes": [
+      [
+        "Chengdu",
+        "Meishan",
+        "Ya'an",
+        "Garze",
+        "Aba"
+      ],
+      [
+        "Suining",
+        "Guang'an",
+        "Nanchong",
+        "Dazhou",
+        "Bazhong",
+        "Guangyuan",
+        "Mianyang",
+        "Deyang"
+      ],
+      [
+        "Neijiang",
+        "Zigong",
+        "Luzhou",
+        "Yibin",
+        "Panzhihua",
+        "Liangshan",
+        "Leshan"
+      ]
+    ]
+  },
+  {
+    "eps": 0.2,
+    "distance_km": 3083.205435325831,
+    "loss_kg": 36.78994824455674,
+    "helicopters": 3,
+    "status": 1,
+    "mip_gap": 0.5593721135019846,
+    "max_arrival_min": 183.78643761942212,
+    "routes": [
+      [
+        "Mianyang",
+        "Deyang",
+        "Chengdu",
+        "Meishan",
+        "Leshan",
+        "Ya'an",
+        "Garze",
+        "Aba"
+      ],
+      [
+        "Suining",
+        "Nanchong",
+        "Guang'an",
+        "Dazhou",
+        "Bazhong",
+        "Guangyuan"
+      ],
+      [
+        "Ziyang",
+        "Neijiang",
+        "Zigong",
+        "Luzhou",
+        "Yibin",
+        "Liangshan",
+        "Panzhihua"
+      ]
+    ]
+  },
+  {
+    "eps": 0.3,
+    "distance_km": 3341.9436403100904,
+    "loss_kg": 15.235078598812528,
+    "helicopters": 5,
+    "status": 0,
+    "mip_gap": 8.146636764009001e-07,
+    "max_arrival_min": 126.69881153444975,
+    "routes": [
+      [
+        "Suining",
+        "Nanchong",
+        "Guang'an",
+        "Dazhou",
+        "Bazhong",
+        "Guangyuan"
+      ],
+      [
+        "Neijiang",
+        "Zigong",
+        "Yibin",
+        "Luzhou"
+      ],
+      [
+        "Leshan",
+        "Liangshan",
+        "Panzhihua"
+      ],
+      [
+        "Meishan",
+        "Ya'an",
+        "Garze",
+        "Aba"
+      ],
+      [
+        "Ziyang",
+        "Chengdu",
+        "Deyang",
+        "Mianyang"
+      ]
+    ]
+  },
+  {
+    "eps": 0.35,
+    "distance_km": 3489.464028274781,
+    "loss_kg": 13.035773385144829,
+    "helicopters": 5,
+    "status": 0,
+    "mip_gap": 0.0,
+    "max_arrival_min": 117.63637291463593,
+    "routes": [
+      [
+        "Chengdu",
+        "Deyang",
+        "Mianyang",
+        "Guangyuan"
+      ],
+      [
+        "Suining",
+        "Nanchong",
+        "Guang'an",
+        "Dazhou",
+        "Bazhong"
+      ],
+      [
+        "Neijiang",
+        "Luzhou",
+        "Yibin",
+        "Zigong"
+      ],
+      [
+        "Leshan",
+        "Liangshan",
+        "Panzhihua"
+      ],
+      [
+        "Ziyang",
+        "Meishan",
+        "Ya'an",
+        "Garze",
+        "Aba"
+      ]
+    ]
+  },
+  {
+    "eps": 0.4,
+    "distance_km": 3515.2705689087156,
+    "loss_kg": 11.89024220297775,
+    "helicopters": 5,
+    "status": 0,
+    "mip_gap": 0.0,
+    "max_arrival_min": 117.63637291463593,
+    "routes": [
+      [
+        "Chengdu",
+        "Deyang",
+        "Mianyang",
+        "Guangyuan"
+      ],
+      [
+        "Suining",
+        "Nanchong",
+        "Guang'an",
+        "Dazhou",
+        "Bazhong"
+      ],
+      [
+        "Leshan",
+        "Liangshan",
+        "Panzhihua"
+      ],
+      [
+        "Meishan",
+        "Ya'an",
+        "Garze",
+        "Aba"
+      ],
+      [
+        "Ziyang",
+        "Neijiang",
+        "Zigong",
+        "Yibin",
+        "Luzhou"
+      ]
+    ]
+  },
+  {
+    "eps": 0.75,
+    "distance_km": 4516.160562079892,
+    "loss_kg": 8.22283020211237,
+    "helicopters": 8,
+    "status": 0,
+    "mip_gap": 0.0,
+    "max_arrival_min": 117.63637291463593,
+    "routes": [
+      [
+        "Chengdu",
+        "Aba"
+      ],
+      [
+        "Zigong",
+        "Yibin"
+      ],
+      [
+        "Deyang",
+        "Mianyang",
+        "Guangyuan"
+      ],
+      [
+        "Suining",
+        "Nanchong",
+        "Bazhong"
+      ],
+      [
+        "Neijiang",
+        "Luzhou"
+      ],
+      [
+        "Meishan",
+        "Ya'an",
+        "Garze"
+      ],
+      [
+        "Guang'an",
+        "Dazhou"
+      ],
+      [
+        "Ziyang",
+        "Leshan",
+        "Liangshan",
+        "Panzhihua"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,238 @@
+{
+  "data": {
+    "suppliers_by_material": {
+      "A": 146,
+      "B": 134,
+      "C": 122
+    },
+    "suppliers_K_positive": 225,
+    "suppliers_score_ge_100": 43,
+    "ratio_quantiles": {
+      "q05": 0.0,
+      "q25": 0.0,
+      "q50": 1.0,
+      "q75": 1.1666666666666667,
+      "q95": 1.5
+    },
+    "ratio_share_within_10pct": 0.3592430534266046,
+    "ratio_share_above_cap": 0.08469663610267272,
+    "gini_score": 0.9386905816730553,
+    "top_k_share": {
+      "10": 0.5445234181553749,
+      "20": 0.788142613416577,
+      "50": 0.9878797186986306,
+      "120": 0.9972554879391463
+    },
+    "history_share_by_material": {
+      "A": 0.3612428404274631,
+      "B": 0.338709679424265,
+      "C": 0.30004748014827193
+    },
+    "ratio_sd_top50_median": 0.16215813502230336
+  },
+  "carriers": [
+    {
+      "carrier": "T1",
+      "active_weeks": 240,
+      "mean_loss": 0.019047691666666665,
+      "sd_loss": 0.006559315089112879,
+      "q95_loss": 0.029815799999999996,
+      "max_loss": 0.05
+    },
+    {
+      "carrier": "T2",
+      "active_weeks": 240,
+      "mean_loss": 0.009213704166666666,
+      "sd_loss": 0.004794492576555866,
+      "q95_loss": 0.015957,
+      "max_loss": 0.05
+    },
+    {
+      "carrier": "T3",
+      "active_weeks": 117,
+      "mean_loss": 0.0018605555555555554,
+      "sd_loss": 0.00475350041502381,
+      "q95_loss": 0.005309399999999993,
+      "max_loss": 0.05
+    },
+    {
+      "carrier": "T4",
+      "active_weeks": 102,
+      "mean_loss": 0.015704823529411764,
+      "sd_loss": 0.01928152435110335,
+      "q95_loss": 0.05,
+      "max_loss": 0.05
+    },
+    {
+      "carrier": "T5",
+      "active_weeks": 83,
+      "mean_loss": 0.028898253012048198,
+      "sd_loss": 0.019581597882572813,
+      "q95_loss": 0.05,
+      "max_loss": 0.05
+    },
+    {
+      "carrier": "T6",
+      "active_weeks": 216,
+      "mean_loss": 0.005437611111111112,
+      "sd_loss": 0.013479433988991535,
+      "q95_loss": 0.04845275,
+      "max_loss": 0.05
+    },
+    {
+      "carrier": "T7",
+      "active_weeks": 240,
+      "mean_loss": 0.020788333333333336,
+      "sd_loss": 0.014324183181967326,
+      "q95_loss": 0.05,
+      "max_loss": 0.05
+    },
+    {
+      "carrier": "T8",
+      "active_weeks": 203,
+      "mean_loss": 0.010102827586206897,
+      "sd_loss": 0.011125491933545093,
+      "q95_loss": 0.05,
+      "max_loss": 0.05
+    }
+  ],
+  "q1_topsis": {
+    "weights": {
+      "total product delivered": 0.4265011149592776,
+      "sustained capacity (product)": 0.4405579729000248,
+      "share of ratios >= 0.9": 0.02770010706599134,
+      "share of weeks with delivery": 0.09346441478081212,
+      "CV of positive deliveries": 0.011776390293894165
+    },
+    "kendall_tau": 0.5899968327534864,
+    "spearman": 0.7400045549147971,
+    "top50_overlap": 42,
+    "top10_overlap": 8,
+    "only_topsis": [
+      "S086",
+      "S114",
+      "S139",
+      "S140",
+      "S150",
+      "S291",
+      "S314",
+      "S338"
+    ],
+    "only_score": [
+      "S003",
+      "S005",
+      "S023",
+      "S078",
+      "S154",
+      "S189",
+      "S210",
+      "S273"
+    ],
+    "share_capacity_topsis50": 0.9455198138683005
+  },
+  "q2_greedy_first_n_95": 18,
+  "q2_stress": {
+    "pair_corr_median": -0.012238711243490446,
+    "pair_corr_q90": 0.08763882657815297,
+    "lag1_autocorr_median": -0.01602480395280287,
+    "full_capacity_block1": 0.9724,
+    "full_capacity_block4": 0.9688,
+    "full_capacity_independent": 0.9718,
+    "cheapest_plan_block1": 0.9202,
+    "cheapest_plan_block4": 0.8944,
+    "cheapest_plan_independent": 0.9114
+  },
+  "q2_plan_structure": {
+    "suppliers_always_at_capacity": 14,
+    "swing_suppliers": [
+      "S108",
+      "S131",
+      "S308",
+      "S340"
+    ],
+    "weeks_all_at_capacity": 9,
+    "expected_product_week1": 31320.666349310828,
+    "expected_product_min": 26673.550529973338,
+    "expected_product_mean": 28793.412535065636
+  },
+  "q2_carrier_weeks_full": {
+    "T2": 0,
+    "T3": 22,
+    "T6": 4,
+    "T8": 0
+  },
+  "q2_weekly_raw_volume": {
+    "min": 17919.527692794512,
+    "max": 20986.624133557616
+  },
+  "q4_service_level": [
+    {
+      "service": 0.9,
+      "max_production": 38460.93158415609,
+      "increase": 0.36386282213319476
+    },
+    {
+      "service": 0.95,
+      "max_production": 37867.95358167806,
+      "increase": 0.34283523339283906
+    },
+    {
+      "service": 0.99,
+      "max_production": 36849.426659774625,
+      "increase": 0.3067172574388164
+    }
+  ],
+  "sensitivity": [
+    {
+      "parameter": "ratio cap",
+      "value": 1.2,
+      "p_two_weeks_18_full": 0.9624
+    },
+    {
+      "parameter": "ratio cap",
+      "value": 1.5,
+      "p_two_weeks_18_full": 0.9698
+    },
+    {
+      "parameter": "ratio cap",
+      "value": 2.0,
+      "p_two_weeks_18_full": 0.9718
+    },
+    {
+      "parameter": "ratio cap",
+      "value": "none",
+      "p_two_weeks_18_full": 0.9706
+    },
+    {
+      "parameter": "demand factor",
+      "value": 0.95,
+      "p_two_weeks_18_full": 0.997
+    },
+    {
+      "parameter": "demand factor",
+      "value": 0.98,
+      "p_two_weeks_18_full": 0.9896
+    },
+    {
+      "parameter": "demand factor",
+      "value": 1.02,
+      "p_two_weeks_18_full": 0.938
+    },
+    {
+      "parameter": "demand factor",
+      "value": 1.05,
+      "p_two_weeks_18_full": 0.854
+    },
+    {
+      "parameter": "capacity factor",
+      "value": 0.95,
+      "p_two_weeks_18_full": 0.8464
+    },
+    {
+      "parameter": "capacity factor",
+      "value": 1.05,
+      "p_two_weeks_18_full": 0.9976
+    }
+  ],
+  "runtime_s": 1374.2551753520966
+}

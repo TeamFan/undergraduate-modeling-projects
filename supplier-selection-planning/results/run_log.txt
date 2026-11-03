@@ -1,0 +1,15 @@
+[11:39:46] Q1: importance
+[11:39:46] Q2: chance-constrained selection (SAA)
+[11:39:46]   eps=0.0: 19 suppliers, out-of-sample P(two weeks) = 0.988
+[11:40:10]   eps=0.05: 18 suppliers, out-of-sample P(two weeks) = 0.967
+[11:40:26]   eps=0.1: 17 suppliers, out-of-sample P(two weeks) = 0.909
+[11:40:58]   eps=0.2: 17 suppliers, out-of-sample P(two weeks) = 0.888
+[11:41:10]   eps=0.5: 16 suppliers, out-of-sample P(two weeks) = 0.726
+[11:41:10] Q2: order plan and transport
+[11:55:35] Q3: prefer A, reduce C (lexicographic volume, then cost)
+[11:58:41] Q4: maximum sustainable production
+[11:58:48]   window 3: P_max = 56564
+[11:58:53]   window 4: P_max = 37749
+[11:58:55]   window 6: P_max = 27816
+[11:58:57]   window 8: P_max = 25158
+[11:58:57] done in 1152 s

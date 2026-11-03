@@ -1,0 +1,24 @@
+[10:31:28] Problem 1: spherical Weber point
+[10:31:33] Problem 2: routing MILP for k = 1..10
+[10:31:35]   k=2: {'k': 2, 'feasible': True, 'status': 0, 'mip_gap': 0.0, 'distance_km': 2593.738708356224, 'longest_route_km': 1711.6432732896787}
+[10:31:36]   k=3: {'k': 3, 'feasible': True, 'status': 0, 'mip_gap': 0.0, 'distance_km': 2593.7387083562235, 'longest_route_km': 1711.6432732896787}
+[10:31:36]   k=4: {'k': 4, 'feasible': True, 'status': 0, 'mip_gap': 0.0, 'distance_km': 2715.0468857973, 'longest_route_km': 1711.6432732896787}
+[10:31:36]   k=5: {'k': 5, 'feasible': True, 'status': 0, 'mip_gap': 0.0, 'distance_km': 2836.967320931871, 'longest_route_km': 1685.283762077765}
+[10:31:36]   k=6: {'k': 6, 'feasible': True, 'status': 0, 'mip_gap': 0.0, 'distance_km': 2959.310173037105, 'longest_route_km': 1658.355114405512}
+[10:31:36]   k=7: {'k': 7, 'feasible': True, 'status': 0, 'mip_gap': 0.0, 'distance_km': 3120.331563131334, 'longest_route_km': 1646.321127698737}
+[10:31:36]   k=8: {'k': 8, 'feasible': True, 'status': 0, 'mip_gap': 0.0, 'distance_km': 3294.893447496034, 'longest_route_km': 1611.7493827939422}
+[10:31:36]   k=9: {'k': 9, 'feasible': True, 'status': 0, 'mip_gap': 0.0, 'distance_km': 3498.043978144143, 'longest_route_km': 1611.7493827939422}
+[10:31:36]   k=10: {'k': 10, 'feasible': True, 'status': 0, 'mip_gap': 0.0, 'distance_km': 3712.3198057463746, 'longest_route_km': 1611.7493827939422}
+[10:31:36] Problem 3: distance-loss trade-off (epsilon constraint)
+[10:34:51]   eps=0.0: D=2593.7 loss=432.82 k=2
+[10:39:51]   eps=0.05: D=2717.6 loss=225.65 k=2
+[10:44:51]   eps=0.1: D=2811.1 loss=91.35 k=3
+[10:49:51]   eps=0.25: D=3215.4 loss=22.72 k=4
+[10:49:59]   eps=0.5: D=3864.1 loss=10.40 k=6
+[10:50:00]   eps=1.0: D=5163.9 loss=7.74 k=10
+[10:51:25] Problem 4: re-evaluating the base location on candidate sites
+[10:51:41]   Weber point (Ziyang): 2593.7 km, min loss 7.74 kg
+[10:52:10]   demand-weighted Weber: 2592.4 km, min loss 7.74 kg
+[10:52:47]   Chengdu: 2621.7 km, min loss 8.88 kg
+[10:53:31]   Zigong: 2639.4 km, min loss 9.52 kg
+[10:58:32]   Panzhihua: 3201.1 km, min loss 117.51 kg

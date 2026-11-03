@@ -1,0 +1,8 @@
+stratum,factor,n,levels,chi2,p_exact,cramers_v,test
+high-K,decoration,18,3,18.0,0.00024998750062496874,1.0,Monte Carlo exact
+high-K,color,18,4,4.5,0.31703414829258536,0.5,Monte Carlo exact
+Pb-Ba,decoration,40,2,0.019841269841269826,1.0,0.02227177015936869,Fisher exact
+Pb-Ba,color,36,8,9.0,0.24823758812059396,0.5,Monte Carlo exact
+within type (pooled),decoration,58,3,18.01984126984127,0.00039998000099995,,stratified permutation
+within type (pooled),color,54,8,13.5,0.16834158292085397,,stratified permutation
+high-K,decoration B vs A/C,18,2,18.0,5.3867700926524454e-05,1.0,Fisher exact

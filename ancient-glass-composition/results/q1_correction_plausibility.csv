@@ -1,0 +1,11 @@
+type,model,n_points,share_values_in_range,points_all_in_range
+high-K,no correction,6,0.7708333333333334,0
+high-K,additive shift (wt%),6,1.0,6
+high-K,clr median shift,6,0.8958333333333334,1
+high-K,clr mean shift,6,0.875,2
+high-K,calibrated clr shift,6,0.8958333333333334,2
+Pb-Ba,no correction,26,0.6586538461538461,1
+Pb-Ba,additive shift (wt%),26,0.9038461538461539,14
+Pb-Ba,clr median shift,26,0.8990384615384616,11
+Pb-Ba,clr mean shift,26,0.9278846153846154,16
+Pb-Ba,calibrated clr shift,26,0.9855769230769231,23

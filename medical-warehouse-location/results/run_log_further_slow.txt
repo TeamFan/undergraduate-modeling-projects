@@ -1,0 +1,18 @@
+[12:23:13] Problem 3: additional epsilon values
+[12:28:13]   eps=0.15: D=2915.6 loss=101.75 k=3
+[12:33:13]   eps=0.2: D=3083.2 loss=36.79 k=3
+[12:36:53]   eps=0.3: D=3341.9 loss=15.24 k=5
+[12:39:23]   eps=0.35: D=3489.5 loss=13.04 k=5
+[12:40:43]   eps=0.4: D=3515.3 loss=11.89 k=5
+[12:40:48]   eps=0.75: D=4516.2 loss=8.22 k=8
+[12:40:48] Problem 2: range and payload
+[12:41:49]   range 1000 payload 12000: {'range_km': 1000.0, 'payload_kg': 12000.0, 'status': 0, 'mip_gap': 4.760880672558299e-07, 'distance_km': 3003.6167058240444, 'helicopters': 4, 'longest_route_km': 989.7647418004278, 'max_load_kg': np.float64(4300.0)}
+[12:44:49]   range 1200 payload 12000: {'range_km': 1200.0, 'payload_kg': 12000.0, 'status': 1, 'mip_gap': 0.03226584484437875, 'distance_km': 2776.0858807960303, 'helicopters': 3, 'longest_route_km': 1158.580038817287, 'max_load_kg': np.float64(4300.0)}
+[12:45:44]   range 1500 payload 12000: {'range_km': 1500.0, 'payload_kg': 12000.0, 'status': 0, 'mip_gap': 0.0, 'distance_km': 2641.7937384274924, 'helicopters': 2, 'longest_route_km': 1379.1824150917819, 'max_load_kg': np.float64(6500.0)}
+[12:46:04]   range 1750 payload 12000: {'range_km': 1750.0, 'payload_kg': 12000.0, 'status': 0, 'mip_gap': 0.0, 'distance_km': 2593.7387083562235, 'helicopters': 2, 'longest_route_km': 1711.6432732896787, 'max_load_kg': np.float64(6300.0)}
+[12:46:29]   range 2500 payload 12000: {'range_km': 2500.0, 'payload_kg': 12000.0, 'status': 0, 'mip_gap': 0.0, 'distance_km': 2593.7387083562235, 'helicopters': 2, 'longest_route_km': 1711.6432732896787, 'max_load_kg': np.float64(6300.0)}
+[12:49:29]   range 2000 payload 3000: {'range_km': 2000.0, 'payload_kg': 3000.0, 'status': 1, 'mip_gap': 0.12340583976057322, 'distance_km': 3077.8131317019943, 'helicopters': 4, 'longest_route_km': 1505.9185744106624, 'max_load_kg': np.float64(3000.0)}
+[12:52:29]   range 2000 payload 4000: {'range_km': 2000.0, 'payload_kg': 4000.0, 'status': 1, 'mip_gap': 0.05885137123346107, 'distance_km': 2826.5816911700636, 'helicopters': 3, 'longest_route_km': 1158.5800388172868, 'max_load_kg': np.float64(3900.0)}
+[12:53:41]   range 2000 payload 6000: {'range_km': 2000.0, 'payload_kg': 6000.0, 'status': 0, 'mip_gap': 0.0, 'distance_km': 2671.92675200134, 'helicopters': 2, 'longest_route_km': 1423.9158929770247, 'max_load_kg': np.float64(5800.0)}
+[12:54:06]   range 2000 payload 8000: {'range_km': 2000.0, 'payload_kg': 8000.0, 'status': 0, 'mip_gap': 0.0, 'distance_km': 2593.7387083562235, 'helicopters': 2, 'longest_route_km': 1711.6432732896787, 'max_load_kg': np.float64(6300.0)}
+[12:54:06] done

@@ -1,0 +1,36 @@
+{
+  "params": {
+    "S0": 50.0,
+    "K": 52.0,
+    "r": 0.05,
+    "sigma": 0.3
+  },
+  "cn_greeks_M250": {
+    "M": 250.0,
+    "lambda_K": 97.34399999999998,
+    "damping_estimate": 0.005878677803813449,
+    "delta_err_cn": 0.0001247363164912363,
+    "gamma_err_cn": 0.013497328478114856,
+    "price_err_cn": 2.8073470057954353e-05,
+    "delta_err_rannacher": 1.9517134258184576e-06,
+    "gamma_err_rannacher": 1.5615333112499463e-06,
+    "price_err_rannacher": 3.438027538660293e-05
+  },
+  "gamma_exact_max_window": 0.02941618191647447,
+  "euro_payoff_zero_fraction": 0.54545,
+  "euro_payoff_skewness": 2.4149361009612216,
+  "mc_correlation_paths": 1000000,
+  "one_pass_variance_rel_err": {
+    "euro": 2.4964299159903856e-16,
+    "st": 1.1205562396047547e-14,
+    "asian": 0.0,
+    "geo": 4.0903284989301487e-16
+  },
+  "merge_max_abs_dev": 1.4210854715202004e-14,
+  "merge_max_abs_dev_se": 1.491862189340054e-16,
+  "gather_payload": {
+    "numbers": 11,
+    "pickled_bytes": 213
+  },
+  "throughput_1_proc": 170345037.93015933
+}

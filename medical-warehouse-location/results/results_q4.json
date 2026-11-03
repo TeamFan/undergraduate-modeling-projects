@@ -1,0 +1,50 @@
+{
+  "weighted_weber": {
+    "lon": 104.55536350909722,
+    "lat": 30.256508872985613,
+    "weighted_tkm": 1857.1201612234022
+  },
+  "best_by_route_distance": {
+    "site": "grid 104.50E 30.25N",
+    "lon": 104.5,
+    "lat": 30.25,
+    "sum_distance_km": 3865.074167287312,
+    "weighted_distance_tkm": 1858.2587925313203,
+    "min_route_km": 2591.254674503089,
+    "min_route_status": 0,
+    "min_route_gap": 0.0,
+    "min_loss_kg": 7.726916894436801,
+    "min_loss_status": 0,
+    "min_loss_route_km": 5169.950564580036
+  },
+  "best_by_min_loss": {
+    "site": "grid 104.50E 30.25N",
+    "lon": 104.5,
+    "lat": 30.25,
+    "sum_distance_km": 3865.074167287312,
+    "weighted_distance_tkm": 1858.2587925313203,
+    "min_route_km": 2591.254674503089,
+    "min_route_status": 0,
+    "min_route_gap": 0.0,
+    "min_loss_kg": 7.726916894436801,
+    "min_loss_status": 0,
+    "min_loss_route_km": 5169.950564580036
+  },
+  "weber_row": {
+    "site": "Weber point (Ziyang)",
+    "lon": 104.628686,
+    "lat": 30.127682,
+    "sum_distance_km": 3847.9480500408818,
+    "weighted_distance_tkm": 1862.0790902216472,
+    "min_route_km": 2593.7387083562235,
+    "min_route_status": 0,
+    "min_route_gap": 0.0,
+    "min_loss_kg": 7.740774308579224,
+    "min_loss_status": 0,
+    "min_loss_route_km": 5163.899671070931
+  },
+  "n_candidates": 47,
+  "n_route_optimal": 33,
+  "n_loss_optimal": 47,
+  "runtime_s": 1992.7847409248352
+}

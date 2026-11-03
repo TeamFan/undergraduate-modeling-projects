@@ -1,0 +1,19 @@
+[11:02:05] Problem 1: spherical Weber point
+[11:02:11] Problem 2: routing MILP for k = 1..10
+[11:02:14]   k=2: {'k': 2, 'feasible': True, 'status': 0, 'mip_gap': 0.0, 'distance_km': 2593.738708356224, 'longest_route_km': 1711.6432732896787}
+[11:02:14]   k=3: {'k': 3, 'feasible': True, 'status': 0, 'mip_gap': 0.0, 'distance_km': 2593.7387083562235, 'longest_route_km': 1711.6432732896787}
+[11:02:14]   k=4: {'k': 4, 'feasible': True, 'status': 0, 'mip_gap': 0.0, 'distance_km': 2715.0468857973, 'longest_route_km': 1711.6432732896787}
+[11:02:15]   k=5: {'k': 5, 'feasible': True, 'status': 0, 'mip_gap': 0.0, 'distance_km': 2836.967320931871, 'longest_route_km': 1685.283762077765}
+[11:02:15]   k=6: {'k': 6, 'feasible': True, 'status': 0, 'mip_gap': 0.0, 'distance_km': 2959.310173037105, 'longest_route_km': 1658.355114405512}
+[11:02:15]   k=7: {'k': 7, 'feasible': True, 'status': 0, 'mip_gap': 0.0, 'distance_km': 3120.331563131334, 'longest_route_km': 1646.321127698737}
+[11:02:15]   k=8: {'k': 8, 'feasible': True, 'status': 0, 'mip_gap': 0.0, 'distance_km': 3294.893447496034, 'longest_route_km': 1611.7493827939422}
+[11:02:15]   k=9: {'k': 9, 'feasible': True, 'status': 0, 'mip_gap': 0.0, 'distance_km': 3498.043978144143, 'longest_route_km': 1611.7493827939422}
+[11:02:15]   k=10: {'k': 10, 'feasible': True, 'status': 0, 'mip_gap': 0.0, 'distance_km': 3712.3198057463746, 'longest_route_km': 1611.7493827939422}
+[11:02:15] Problem 3: distance-loss trade-off (epsilon constraint)
+[11:06:05]   eps=0.0: D=2593.7 loss=432.82 k=2
+[11:11:05]   eps=0.05: D=2717.6 loss=225.65 k=2
+[11:16:05]   eps=0.1: D=2800.5 loss=86.02 k=3
+[11:21:05]   eps=0.25: D=3215.4 loss=22.72 k=4
+[11:21:15]   eps=0.5: D=3864.1 loss=10.40 k=6
+[11:21:16]   eps=1.0: D=5163.9 loss=7.74 k=10
+[11:22:50] done in 1245 s

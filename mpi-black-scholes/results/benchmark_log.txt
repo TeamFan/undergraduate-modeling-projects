@@ -1,0 +1,14 @@
+[11:59:35] strong scaling, 8000000 paths
+[12:00:27]   repeat 1/5
+[12:01:30]   repeat 2/5
+[12:02:36]   repeat 3/5
+[12:03:37]   repeat 4/5
+[12:04:39]   repeat 5/5
+[12:04:39] weak scaling, 1000000 paths per rank
+[12:05:19]   repeat 1/5
+[12:06:02]   repeat 2/5
+[12:06:45]   repeat 3/5
+[12:07:25]   repeat 4/5
+[12:08:04]   repeat 5/5
+[12:08:04] price table
+[12:08:19] done

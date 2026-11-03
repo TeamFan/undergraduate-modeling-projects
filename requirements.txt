@@ -1,0 +1,13 @@
+# Python 3.9 (tested on macOS 27.2, Apple M5). Exact versions used to produce the results.
+numpy==2.0.2
+scipy==1.13.1
+pandas==2.3.3
+matplotlib==3.9.4
+openpyxl==3.1.5
+xlrd==2.0.2
+scikit-learn==1.6.1
+scikit-image==0.24.0
+pillow==11.3.0
+# MPI project only: mpich wheel provides mpiexec inside the virtual environment
+mpich==5.0.2
+mpi4py==4.1.2

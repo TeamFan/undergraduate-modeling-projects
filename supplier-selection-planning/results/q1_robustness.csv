@@ -1,0 +1,6 @@
+variant,kendall_tau,top50_overlap
+window 3 weeks,0.7420638779740116,50
+window 6 weeks,0.6810318069170017,49
+window 8 weeks,0.6196619481617655,48
+reliability P(ratio>=0.9),0.9872508613372206,50
+historical mean delivery,0.6611974144406225,44

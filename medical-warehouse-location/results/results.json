@@ -1,0 +1,408 @@
+{
+  "n_cities": 21,
+  "total_demand_kg": 12000.0,
+  "q1": {
+    "centroid": {
+      "lon": 104.52396723809522,
+      "lat": 30.153183047619056,
+      "total_km": 3855.0328098701493
+    },
+    "weber": {
+      "lon": 104.628686,
+      "lat": 30.127682,
+      "total_km": 3847.9480500408818
+    },
+    "weber_coincides_with": "Ziyang",
+    "weber_to_city_km": 0.0,
+    "vertex_condition_norm": 0.7348302673879964,
+    "vertex_condition_weight": 1.0,
+    "centroid_excess_km": 7.084759829267568,
+    "centroid_to_weber_km": 10.461490998076624,
+    "ga_runs": 20,
+    "ga_total_mean": 3848.060449257178,
+    "ga_total_std": 0.07477236189685912,
+    "ga_total_max": 3848.2510551398036,
+    "ga_offset_mean_km": 0.35947509467415417,
+    "ga_offset_max_km": 0.8304380411612059
+  },
+  "loss_fit": {
+    "c": 0.12000548226752004,
+    "p": 3.000172045382615,
+    "max_abs_dev": 4.543868330580958e-05
+  },
+  "q2": {
+    "tsp_km": 2505.491393299679,
+    "tsp_lower_bound_km": 2505.49139329968,
+    "tsp_status": 0,
+    "k1_infeasible_because_tsp_exceeds_range": true,
+    "min_distance_km": 2593.738708356224,
+    "k_at_min": 2,
+    "helicopters_flying": 2,
+    "routes": [
+      [
+        "Chengdu",
+        "Deyang",
+        "Mianyang",
+        "Guangyuan",
+        "Bazhong",
+        "Dazhou",
+        "Guang'an",
+        "Nanchong",
+        "Suining"
+      ],
+      [
+        "Neijiang",
+        "Zigong",
+        "Luzhou",
+        "Yibin",
+        "Panzhihua",
+        "Liangshan",
+        "Garze",
+        "Aba",
+        "Ya'an",
+        "Leshan",
+        "Meishan"
+      ]
+    ],
+    "route_km": [
+      882.0954350665452,
+      1711.6432732896787
+    ],
+    "route_hours": [
+      3.459197784574687,
+      6.7123265619203085
+    ],
+    "route_load_kg": [
+      6300.0,
+      5200.0
+    ],
+    "loss_kg": 432.8208146670677,
+    "mip_gap": 0.0
+  },
+  "q3": {
+    "front": [
+      {
+        "eps": 0.0,
+        "distance_km": 2593.738708356224,
+        "loss_kg": 432.8208146745534,
+        "helicopters": 2,
+        "status": 0,
+        "mip_gap": 0.0,
+        "max_arrival_min": 385.17824080022007,
+        "routes": [
+          [
+            "Chengdu",
+            "Deyang",
+            "Mianyang",
+            "Guangyuan",
+            "Bazhong",
+            "Dazhou",
+            "Guang'an",
+            "Nanchong",
+            "Suining"
+          ],
+          [
+            "Neijiang",
+            "Zigong",
+            "Luzhou",
+            "Yibin",
+            "Panzhihua",
+            "Liangshan",
+            "Garze",
+            "Aba",
+            "Ya'an",
+            "Leshan",
+            "Meishan"
+          ]
+        ]
+      },
+      {
+        "eps": 0.05,
+        "distance_km": 2717.5697134371003,
+        "loss_kg": 225.64849296311468,
+        "helicopters": 2,
+        "status": 1,
+        "mip_gap": 0.9214451407643791,
+        "max_arrival_min": 295.79072333494514,
+        "routes": [
+          [
+            "Suining",
+            "Nanchong",
+            "Guang'an",
+            "Dazhou",
+            "Bazhong",
+            "Guangyuan",
+            "Mianyang",
+            "Deyang",
+            "Chengdu",
+            "Meishan",
+            "Ya'an",
+            "Garze",
+            "Aba"
+          ],
+          [
+            "Neijiang",
+            "Zigong",
+            "Luzhou",
+            "Yibin",
+            "Panzhihua",
+            "Liangshan",
+            "Leshan"
+          ]
+        ]
+      },
+      {
+        "eps": 0.1,
+        "distance_km": 2800.4852589279935,
+        "loss_kg": 86.0206459428195,
+        "helicopters": 3,
+        "status": 1,
+        "mip_gap": 0.7687981235047188,
+        "max_arrival_min": 287.09755326359516,
+        "routes": [
+          [
+            "Chengdu",
+            "Deyang",
+            "Mianyang",
+            "Guangyuan",
+            "Bazhong",
+            "Dazhou",
+            "Guang'an",
+            "Nanchong",
+            "Suining"
+          ],
+          [
+            "Zigong",
+            "Yibin",
+            "Luzhou",
+            "Neijiang"
+          ],
+          [
+            "Meishan",
+            "Leshan",
+            "Ya'an",
+            "Liangshan",
+            "Panzhihua",
+            "Garze",
+            "Aba"
+          ]
+        ]
+      },
+      {
+        "eps": 0.25,
+        "distance_km": 3215.440222302706,
+        "loss_kg": 22.720526299472425,
+        "helicopters": 4,
+        "status": 1,
+        "mip_gap": 0.32232676163968793,
+        "max_arrival_min": 155.07243104819318,
+        "routes": [
+          [
+            "Chengdu",
+            "Deyang",
+            "Mianyang",
+            "Aba"
+          ],
+          [
+            "Suining",
+            "Nanchong",
+            "Guang'an",
+            "Dazhou",
+            "Bazhong",
+            "Guangyuan"
+          ],
+          [
+            "Neijiang",
+            "Zigong",
+            "Luzhou",
+            "Yibin",
+            "Leshan"
+          ],
+          [
+            "Meishan",
+            "Ya'an",
+            "Garze",
+            "Liangshan",
+            "Panzhihua"
+          ]
+        ]
+      },
+      {
+        "eps": 0.5,
+        "distance_km": 3864.060223416264,
+        "loss_kg": 10.400229531675613,
+        "helicopters": 6,
+        "status": 0,
+        "mip_gap": 0.0,
+        "max_arrival_min": 117.63637291463591,
+        "routes": [
+          [
+            "Deyang",
+            "Mianyang",
+            "Guangyuan",
+            "Bazhong"
+          ],
+          [
+            "Suining",
+            "Nanchong",
+            "Guang'an",
+            "Dazhou"
+          ],
+          [
+            "Neijiang",
+            "Zigong",
+            "Yibin",
+            "Luzhou"
+          ],
+          [
+            "Leshan",
+            "Liangshan",
+            "Panzhihua"
+          ],
+          [
+            "Meishan",
+            "Ya'an",
+            "Garze"
+          ],
+          [
+            "Ziyang",
+            "Chengdu",
+            "Aba"
+          ]
+        ]
+      },
+      {
+        "eps": 1.0,
+        "distance_km": 5163.899671070931,
+        "loss_kg": 7.740774308579224,
+        "helicopters": 10,
+        "status": 0,
+        "mip_gap": 0.0,
+        "max_arrival_min": 117.63637291463591,
+        "routes": [
+          [
+            "Chengdu",
+            "Aba"
+          ],
+          [
+            "Zigong",
+            "Yibin"
+          ],
+          [
+            "Deyang",
+            "Mianyang"
+          ],
+          [
+            "Guangyuan"
+          ],
+          [
+            "Suining",
+            "Nanchong",
+            "Dazhou"
+          ],
+          [
+            "Leshan",
+            "Liangshan",
+            "Panzhihua"
+          ],
+          [
+            "Meishan",
+            "Ya'an",
+            "Garze"
+          ],
+          [
+            "Guang'an"
+          ],
+          [
+            "Bazhong"
+          ],
+          [
+            "Ziyang",
+            "Neijiang",
+            "Luzhou"
+          ]
+        ]
+      },
+      {
+        "eps": null,
+        "distance_km": 5163.899671070931,
+        "loss_kg": 7.740774308579224,
+        "helicopters": 10,
+        "status": 0,
+        "mip_gap": 4.586183040682086e-07,
+        "max_arrival_min": 117.63637291463591,
+        "routes": [
+          [
+            "Chengdu",
+            "Aba"
+          ],
+          [
+            "Zigong",
+            "Yibin"
+          ],
+          [
+            "Deyang",
+            "Mianyang"
+          ],
+          [
+            "Guangyuan"
+          ],
+          [
+            "Suining",
+            "Nanchong",
+            "Dazhou"
+          ],
+          [
+            "Neijiang",
+            "Luzhou"
+          ],
+          [
+            "Leshan",
+            "Liangshan",
+            "Panzhihua"
+          ],
+          [
+            "Guang'an"
+          ],
+          [
+            "Bazhong"
+          ],
+          [
+            "Ziyang",
+            "Meishan",
+            "Ya'an",
+            "Garze"
+          ]
+        ]
+      }
+    ],
+    "direct_flight_lower_bound_kg": 7.454847313533095,
+    "speed_sensitivity": [
+      {
+        "speed_kmh": 200.0,
+        "q2_loss_kg": 897.1330268304647,
+        "minloss_kg": 16.044755821084905,
+        "minloss_distance_km": 5163.899671070931
+      },
+      {
+        "speed_kmh": 255.0,
+        "q2_loss_kg": 432.8208146670677,
+        "minloss_kg": 7.740774308579224,
+        "minloss_distance_km": 5163.899671070931
+      },
+      {
+        "speed_kmh": 300.0,
+        "q2_loss_kg": 265.79865080922195,
+        "minloss_kg": 4.753670104780364,
+        "minloss_distance_km": 5163.899671070931
+      },
+      {
+        "speed_kmh": 400.0,
+        "q2_loss_kg": 112.12825595800913,
+        "minloss_kg": 2.005355319195309,
+        "minloss_distance_km": 5163.899671070931
+      }
+    ]
+  },
+  "runtime_s": 1245.0144309997559
+}

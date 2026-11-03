@@ -1,0 +1,49 @@
+[11:02:05] Problem 4: re-evaluating the base location on candidate sites
+[11:02:25]   Weber point (Ziyang): 2593.7 km, min loss 7.74 kg
+[11:02:59]   demand-weighted Weber: 2592.4 km, min loss 7.74 kg
+[11:03:43]   Chengdu: 2621.7 km, min loss 8.88 kg
+[11:04:35]   Zigong: 2639.4 km, min loss 9.52 kg
+[11:05:36]   Panzhihua: 3211.8 km, min loss 117.51 kg
+[11:06:38]   Luzhou: 2778.0 km, min loss 14.01 kg
+[11:07:51]   Deyang: 2635.9 km, min loss 11.10 kg
+[11:09:02]   Mianyang: 2657.1 km, min loss 14.11 kg
+[11:10:03]   Guangyuan: 2956.9 km, min loss 33.96 kg
+[11:11:28]   Suining: 2685.6 km, min loss 10.93 kg
+[11:12:22]   Neijiang: 2628.0 km, min loss 9.05 kg
+[11:13:26]   Leshan: 2629.3 km, min loss 10.44 kg
+[11:14:40]   Nanchong: 2797.3 km, min loss 15.07 kg
+[11:15:09]   Meishan: 2602.5 km, min loss 8.84 kg
+[11:16:19]   Yibin: 2668.7 km, min loss 13.84 kg
+[11:17:23]   Guang'an: 2929.0 km, min loss 19.39 kg
+[11:18:24]   Dazhou: 3067.3 km, min loss 38.18 kg
+[11:19:26]   Ya'an: 2663.1 km, min loss 13.94 kg
+[11:20:28]   Bazhong: 2986.9 km, min loss 34.33 kg
+[11:21:31]   Aba: 2947.9 km, min loss 34.83 kg
+[11:22:39]   Garze: 2683.5 km, min loss 27.33 kg
+[11:23:41]   Liangshan: 2974.0 km, min loss 49.99 kg
+[11:24:17]   grid 104.00E 29.75N: 2604.4 km, min loss 8.99 kg
+[11:24:46]   grid 104.00E 30.00N: 2607.3 km, min loss 8.50 kg
+[11:25:04]   grid 104.00E 30.25N: 2609.0 km, min loss 8.48 kg
+[11:25:34]   grid 104.00E 30.50N: 2622.5 km, min loss 8.78 kg
+[11:26:00]   grid 104.00E 30.75N: 2629.0 km, min loss 9.54 kg
+[11:26:24]   grid 104.25E 29.75N: 2600.9 km, min loss 8.52 kg
+[11:26:58]   grid 104.25E 30.00N: 2604.1 km, min loss 7.96 kg
+[11:27:19]   grid 104.25E 30.25N: 2598.3 km, min loss 7.95 kg
+[11:27:54]   grid 104.25E 30.50N: 2608.0 km, min loss 8.28 kg
+[11:28:19]   grid 104.25E 30.75N: 2615.1 km, min loss 9.07 kg
+[11:28:46]   grid 104.50E 29.75N: 2615.6 km, min loss 8.20 kg
+[11:29:22]   grid 104.50E 30.00N: 2601.6 km, min loss 7.79 kg
+[11:29:46]   grid 104.50E 30.25N: 2591.3 km, min loss 7.73 kg
+[11:30:19]   grid 104.50E 30.50N: 2598.1 km, min loss 8.16 kg
+[11:30:45]   grid 104.50E 30.75N: 2603.0 km, min loss 8.91 kg
+[11:31:18]   grid 104.75E 29.75N: 2633.3 km, min loss 8.16 kg
+[11:31:47]   grid 104.75E 30.00N: 2602.5 km, min loss 7.79 kg
+[11:32:19]   grid 104.75E 30.25N: 2603.0 km, min loss 7.91 kg
+[11:32:35]   grid 104.75E 30.50N: 2604.2 km, min loss 8.32 kg
+[11:32:48]   grid 104.75E 30.75N: 2613.0 km, min loss 9.08 kg
+[11:33:26]   grid 105.00E 29.75N: 2626.4 km, min loss 8.47 kg
+[11:33:50]   grid 105.00E 30.00N: 2619.0 km, min loss 8.12 kg
+[11:34:17]   grid 105.00E 30.25N: 2616.6 km, min loss 8.23 kg
+[11:34:47]   grid 105.00E 30.50N: 2628.3 km, min loss 8.82 kg
+[11:35:18]   grid 105.00E 30.75N: 2638.8 km, min loss 9.65 kg
+[11:35:18] problem 4 done in 1993 s

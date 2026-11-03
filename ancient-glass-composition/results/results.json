@@ -1,0 +1,102 @@
+{
+  "artifacts": 58,
+  "points": 69,
+  "valid_points": 67,
+  "invalid_points": [
+    "15",
+    "17"
+  ],
+  "missing_color": 4,
+  "q1a_sampling_point_count": 67,
+  "weathered_share_by_type": {
+    "Pb-Ba": 0.7,
+    "high-K": 0.3333333333333333
+  },
+  "q2_logo_accuracy": 0.9850746268656716,
+  "q2_logo_min_margin": 0.14370526327015354,
+  "q2_rule_PbO_BaO_max_highK": 4.27,
+  "q2_rule_PbO_BaO_min_PbBa": 14.34,
+  "q2_rule_K2O_min_highK_unweathered": 0.0,
+  "q2_rule_K2O_max_PbBa": 1.41,
+  "q2_subclasses": {
+    "high-K": {
+      "k_unconstrained": 2,
+      "admissible_split_found": false,
+      "k": 2,
+      "silhouette": {
+        "2": 0.4832501349418698,
+        "3": 0.31756004494614104,
+        "4": 0.30870252730719444,
+        "5": 0.3278014570378277
+      },
+      "ari_bootstrap_median": 1.0,
+      "ari_bootstrap_p10": 0.0,
+      "ari_without_weathering_correction": 1.0
+    },
+    "Pb-Ba": {
+      "k_unconstrained": 4,
+      "admissible_split_found": true,
+      "k": 4,
+      "silhouette": {
+        "2": 0.21331623314691503,
+        "3": 0.25214750443417017,
+        "4": 0.2795251313451764,
+        "5": 0.275243615923482
+      },
+      "ari_bootstrap_median": 0.7452474694606701,
+      "ari_bootstrap_p10": 0.3879534479622427,
+      "ari_without_weathering_correction": 0.3951383735452225
+    }
+  },
+  "q4_components": [
+    "SiO2",
+    "K2O",
+    "CaO",
+    "MgO",
+    "Al2O3",
+    "Fe2O3",
+    "CuO",
+    "PbO",
+    "BaO",
+    "P2O5",
+    "SrO"
+  ],
+  "q4_n": {
+    "high-K": 18,
+    "Pb-Ba": 49
+  },
+  "q4_pairs": 55,
+  "q4_significant_bh_0.05": 2,
+  "runtime_s": 51.459678411483765,
+  "extended": {
+    "q1_random_cosine_p95": 0.5323512502440302,
+    "q2_tree": {
+      "root_feature": "PbO",
+      "root_threshold": 5.460000097751617,
+      "logo_accuracy": 1.0
+    },
+    "q2_random_forest": {
+      "logo_accuracy": 1.0,
+      "top5": {
+        "PbO": 0.3057044274499162,
+        "BaO": 0.18775914667264246,
+        "SiO2": 0.13284241347182138,
+        "K2O": 0.1116866571732522,
+        "SrO": 0.10321889163634168
+      }
+    },
+    "q2_rule_threshold_midpoint": 9.305,
+    "q2_gap_k": {
+      "high-K": 1,
+      "Pb-Ba": 1
+    },
+    "q4_within_significant_bh_0.05": {
+      "high-K": 2,
+      "Pb-Ba": 5
+    },
+    "q4_sign_changes_raw_vs_clr": {
+      "high-K": 23,
+      "Pb-Ba": 8
+    }
+  }
+}

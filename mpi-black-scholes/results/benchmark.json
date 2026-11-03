@@ -1,0 +1,16 @@
+{
+  "python": "3.9.6",
+  "platform": "macOS-27.2-arm64-arm-64bit",
+  "machdep.cpu.brand_string": "Apple M5",
+  "hw.ncpu": "10",
+  "hw.perflevel0.physicalcpu": "4",
+  "hw.perflevel1.physicalcpu": "6",
+  "mpi4py": "4.1.2",
+  "numpy": "2.0.2",
+  "mpi": "MPICH Version:      5.0.2",
+  "repeats": 5,
+  "strong_paths": 8000000,
+  "weak_paths_per_rank": 1000000,
+  "steps": 252,
+  "amdahl_parallel_fraction": 0.7999716707647623
+}

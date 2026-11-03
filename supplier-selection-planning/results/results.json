@@ -1,0 +1,191 @@
+{
+  "suppliers": 402,
+  "weeks": 240,
+  "hist_mean_product_delivered": 27933.214120370372,
+  "hist_mean_product_ordered": 37124.41109006734,
+  "hist_weeks_below_demand": 173,
+  "share_filled_orders": 0.6383322649870405,
+  "share_zero_deliveries": 0.28140241353362505,
+  "order_delivery_log_corr_top20_median": 0.9466880938609445,
+  "capacity_total_product": {
+    "W3": 81778.48126461444,
+    "W4": 42674.56350764699,
+    "W6": 31155.568884474233,
+    "W8": 28011.12352175307
+  },
+  "q1": {
+    "top50_share_of_capacity": 0.9878797186986306,
+    "top50_share_of_history": 0.8696121163549572,
+    "materials_top50": {
+      "A": 19,
+      "B": 11,
+      "C": 20
+    },
+    "top10": [
+      "S374",
+      "S229",
+      "S361",
+      "S282",
+      "S126",
+      "S356",
+      "S201",
+      "S275",
+      "S340",
+      "S329"
+    ],
+    "robustness": [
+      {
+        "variant": "window 3 weeks",
+        "kendall_tau": 0.7420638779740116,
+        "top50_overlap": 50
+      },
+      {
+        "variant": "window 6 weeks",
+        "kendall_tau": 0.6810318069170017,
+        "top50_overlap": 49
+      },
+      {
+        "variant": "window 8 weeks",
+        "kendall_tau": 0.6196619481617655,
+        "top50_overlap": 48
+      },
+      {
+        "variant": "reliability P(ratio>=0.9)",
+        "kendall_tau": 0.9872508613372206,
+        "top50_overlap": 50
+      },
+      {
+        "variant": "historical mean delivery",
+        "kendall_tau": 0.6611974144406225,
+        "top50_overlap": 44
+      }
+    ]
+  },
+  "q2_candidate_share_of_capacity": 0.9972554879391463,
+  "q2_expected_value_benchmark": {
+    "n": 15,
+    "p_two_weeks": 0.4012,
+    "p_no_stockout": 1.0,
+    "end_stock_weeks_median": 2.5947159686682753
+  },
+  "q2_selection": {
+    "eps": 0.05,
+    "n": 18,
+    "suppliers": [
+      "S037",
+      "S108",
+      "S126",
+      "S131",
+      "S151",
+      "S229",
+      "S268",
+      "S275",
+      "S282",
+      "S306",
+      "S308",
+      "S329",
+      "S340",
+      "S348",
+      "S352",
+      "S356",
+      "S361",
+      "S374"
+    ],
+    "materials": {
+      "A": 6,
+      "B": 4,
+      "C": 8
+    }
+  },
+  "q2_plan": {
+    "safety_z": 2.0,
+    "safety_final_weeks": 0.5050354307852291,
+    "p_two_weeks": 0.916,
+    "p_no_stockout": 1.0,
+    "end_stock_weeks_median": 2.512548555086822,
+    "expected_cost": 497855.5001052348,
+    "cost_per_product": 0.7204417397480167,
+    "historical_cost_per_product": 0.72206861060268,
+    "expected_raw_by_material": {
+      "A": 154251.44265435243,
+      "B": 33578.67904299603,
+      "C": 275817.2219727162
+    },
+    "carrier_mean_loss": [
+      0.019047691666666665,
+      0.009213704166666666,
+      0.0018605555555555554,
+      0.015704823529411764,
+      0.028898253012048198,
+      0.005437611111111112,
+      0.020788333333333336,
+      0.010102827586206897
+    ],
+    "transport_expected_loss_m3": 2699.2487319384663,
+    "transport_expected_rate": 0.0058217711560087666,
+    "transport_replay_rate_mean": 0.005896328080846514,
+    "transport_replay_rate_p95": 0.007646804032062357,
+    "transport_random_rate_mean": 0.013849990198920002,
+    "carrier_volume": {
+      "T2": 143002.0,
+      "T3": 143977.0,
+      "T6": 143843.0,
+      "T8": 32826.0
+    },
+    "supplier_weeks_split": 4,
+    "supplier_weeks": 383
+  },
+  "q3": {
+    "safety_z": 2.25,
+    "service_volume_min": {
+      "p_two_weeks": 0.9675,
+      "p_no_stockout": 1.0,
+      "end_stock_weeks_median": 2.6840543558519983
+    },
+    "v_min": 445307.4363166323,
+    "transport_rate_volume_min": 0.006093175461975304,
+    "transport_rate_cost_only": 0.006373680542280282
+  },
+  "q4": [
+    {
+      "window": 3,
+      "capacity_expected_product": 81778.48126461444,
+      "max_production_95": 56564.28145753397,
+      "increase": 1.0058255836004957,
+      "peak_weekly_transport_m3": 48000.00000000003,
+      "safety_z": 2.75
+    },
+    {
+      "window": 4,
+      "capacity_expected_product": 42674.563507647,
+      "max_production_95": 37749.35798118246,
+      "increase": 0.3386297156447682,
+      "peak_weekly_transport_m3": 28402.78302552746,
+      "safety_z": 2.25
+    },
+    {
+      "window": 6,
+      "capacity_expected_product": 31155.56888447423,
+      "max_production_95": 27816.07517223098,
+      "increase": -0.013614355594646077,
+      "peak_weekly_transport_m3": 20448.59645748882,
+      "safety_z": 2.25
+    },
+    {
+      "window": 8,
+      "capacity_expected_product": 28011.123521753074,
+      "max_production_95": 25158.25639326856,
+      "increase": -0.10786324846565398,
+      "peak_weekly_transport_m3": 18409.00261709604,
+      "safety_z": 2.0
+    }
+  ],
+  "runtime_s": 1151.4103679656982,
+  "q2_full_capacity_plan": {
+    "p_two_weeks": 0.9676,
+    "p_no_stockout": 1.0,
+    "end_stock_weeks_median": 4.657323383080471,
+    "expected_cost": 541890.2991940756,
+    "expected_product": 751695.9923834599
+  }
+}

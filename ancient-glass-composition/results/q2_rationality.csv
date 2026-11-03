@@ -1,0 +1,11 @@
+type,k,alternative,ari_with_ward,smallest_cluster
+high-K,2,k-means,1.0,2
+high-K,2,average linkage,0.5941644562334217,1
+high-K,2,complete linkage,1.0,2
+high-K,2,Gaussian mixture (diagonal),0.5941644562334217,1
+high-K,2,"Ward, all 14 clr coordinates",0.5941644562334217,1
+Pb-Ba,4,k-means,1.0,3
+Pb-Ba,4,average linkage,0.1898153010547795,1
+Pb-Ba,4,complete linkage,0.9504485102717279,3
+Pb-Ba,4,Gaussian mixture (diagonal),0.6748082467497144,1
+Pb-Ba,4,"Ward, all 14 clr coordinates",0.3298539019790853,5

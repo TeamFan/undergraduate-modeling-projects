@@ -1,0 +1,11 @@
+[10:23:11] Crank-Nicolson accuracy
+[10:23:11] Crank-Nicolson grid refinement
+[10:23:11] Monte Carlo replications (plain / antithetic / control variate)
+[10:23:11]   n=1000
+[10:23:12]   n=4000
+[10:23:13]   n=16000
+[10:23:20]   n=64000
+[10:23:46]   n=256000
+[10:23:46] Asian reference value
+[10:23:50] Coverage of 99% intervals
+[10:23:51] done

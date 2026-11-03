@@ -1,0 +1,16 @@
+{
+  "params": {
+    "S0": 50.0,
+    "K": 52.0,
+    "r": 0.05,
+    "sigma": 0.3
+  },
+  "cn_observed_order_last": 2.000012040722485,
+  "asian_reference": 3.08943853341369,
+  "asian_reference_se": 0.00011886629493631959,
+  "geo_asian_exact": 2.8842819947941654,
+  "euro_exact": 6.201643662998094,
+  "replications": 40,
+  "coverage_99_plain_n2000": 0.983,
+  "coverage_reps": 1000
+}
