@@ -2,7 +2,7 @@
 
 Five projects from my B.Sc. in Information and Computing Sciences at Southwest Petroleum University (2021–2025), covering facility location and vehicle routing, stochastic supply planning, parallel option pricing, tomographic reconstruction and compositional data analysis. Each folder contains the input data, the code, every generated table and figure, and a report (LaTeX source and compiled PDF). 
 
-The original report was written in Chinese; the content above has been revised and translated.
+The original report was written in Chinese, the content above has been revised and translated. There may be some discrepancies resulting from the revision and translation process.
 
 The bachelor thesis has its own repository: [thyroid-cancer-recurrence](https://github.com/TeamFan/thyroid-cancer-recurrence).
 
